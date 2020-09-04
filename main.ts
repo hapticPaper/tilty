@@ -15,7 +15,7 @@ input.onButtonPressed(Button.AB, function () {
     reset()
 })
 radio.onReceivedString(function (receivedString) {
-	
+    basic.showString(receivedString)
 })
 input.onPinPressed(TouchPin.P1, function () {
     basic.showIcon(IconNames.Ghost)
